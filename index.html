@@ -62,7 +62,7 @@ layout: default
   <div class="home-section">
     <h4>Most recent post</h4>
     {% for post in site.posts limit:1 %}
-      {% include post-excerpt.html %}
+      {% include recent-post-list.html %}
     {% endfor %}
 
   </div>
